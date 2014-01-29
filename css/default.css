@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500);
+@font-face{
+    font-family: ArialHollow
+    src:url(/fonts/ArialicHollow.ttf)
+}
+h2,h6,li{
+    margin: 0 auto;
+    text-align:center;
+}
+.menu{
+    display:inline;
+    float:right;
+    list-style: none;
+    margin-top:20px;
+}
+.menu li{
+    font-family:"Roboto";
+    display:block;
+    float:left;
+    cursor:pointer;
+    font-size: 18px;
+    width: 100px;
+    margin: 0;
+    padding: 5px;
+    color: #000;
+    transition: background  0.8s;
+    -webkit-transition:background  0.8s;
+}
+.menu li:hover{
+    background: rgba(255,255,255,0.6);
+}
+#logo{ 
+    cursor: pointer;
+    margin-top: 15px;
+    }
+header{
+    background: rgba(255,255,255,0.4);
+}
+body{
+    background-image: url(/images/elegant2.jpg);
+}
